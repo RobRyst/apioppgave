@@ -57,6 +57,7 @@ useEffect(() => {
                     {catfacts.map((catFact) => (
                         <li key={catFact._id}>{catFact.text}</li>
                     ))}
+                    {JSON.stringify(catfacts)}
                 </ul>
             </section>
             
