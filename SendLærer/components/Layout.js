@@ -1,0 +1,1 @@
+//layout.js vil ikke bli slettet, derfor blir ikke denne brukt.
