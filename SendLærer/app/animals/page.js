@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 const Animals = () => {
     const [catfacts, setCatFacts] = useState([])
-    const [fact, setFact] = useState([])
+    const [fact, setFact] = useState('')
 
     const getCatFacts = async () => {
         try {
